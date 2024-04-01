@@ -187,7 +187,7 @@ return [
         'app',
         'bootstrap',
         'config',
-        'database',
+        'database/**/*.php',
         'public/**/*.php',
         'resources/**/*.php',
         'routes',
