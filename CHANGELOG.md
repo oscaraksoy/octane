@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.3.6...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.3.7...2.x)
+
+## [v2.3.7](https://github.com/laravel/octane/compare/v2.3.6...v2.3.7) - 2024-04-01
+
+* Display correct elapsed time with Roadrunner by [@Joel-Jensen](https://github.com/Joel-Jensen) in https://github.com/laravel/octane/pull/865
+* Fix #851: When docker stop container, db connections still persists by [@Focusnik](https://github.com/Focusnik) in https://github.com/laravel/octane/pull/853
+* fix: config watch list database dir; by [@olexoliinyk0](https://github.com/olexoliinyk0) in https://github.com/laravel/octane/pull/867
 
 ## [v2.3.6](https://github.com/laravel/octane/compare/v2.3.5...v2.3.6) - 2024-03-26
 
