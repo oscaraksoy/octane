@@ -307,17 +307,19 @@ class StartFrankenPhpCommand extends Command implements SignalableCommandInterfa
                 ]);
             }
 
-            if ($debug['level'] === 'warn') {
-                return $this->warn($message);
-            }
-
-            if ($debug['level'] !== 'info') {
-                // Request timeout...
-                if (isset($debug['exit_status']) && $debug['exit_status'] === 255) {
-                    return;
+            if (isset($debug['level'])) {
+                if ($debug['level'] === 'warn') {
+                    return $this->warn($message);
                 }
 
-                return $this->error($message);
+                if ($debug['level'] !== 'info') {
+                    // Request timeout...
+                    if (isset($debug['exit_status']) && $debug['exit_status'] === 255) {
+                        return;
+                    }
+
+                    return $this->error($message);
+                }
             }
         });
     }
