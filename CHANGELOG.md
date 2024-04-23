@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.3.7...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.3.8...2.x)
+
+## [v2.3.8](https://github.com/laravel/octane/compare/v2.3.7...v2.3.8) - 2024-04-18
+
+* Ignored http-chunk usage in open_http2_protocol by [@sy-records](https://github.com/sy-records) in https://github.com/laravel/octane/pull/875
+* fix script: `debug['level']` may be missing by [@chu121su12](https://github.com/chu121su12) in https://github.com/laravel/octane/pull/872
 
 ## [v2.3.7](https://github.com/laravel/octane/compare/v2.3.6...v2.3.7) - 2024-04-01
 
