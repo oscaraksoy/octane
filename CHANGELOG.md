@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.3.8...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.3.9...2.x)
+
+## [v2.3.9](https://github.com/laravel/octane/compare/v2.3.8...v2.3.9) - 2024-04-29
+
+* feat: enable Brotli compression when using FrankenPHP by [@dunglas](https://github.com/dunglas) in https://github.com/laravel/octane/pull/880
 
 ## [v2.3.8](https://github.com/laravel/octane/compare/v2.3.7...v2.3.8) - 2024-04-18
 
