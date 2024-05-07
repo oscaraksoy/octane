@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.3.9...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.3.10...2.x)
+
+## [v2.3.10](https://github.com/laravel/octane/compare/v2.3.9...v2.3.10) - 2024-05-07
+
+* [2.x] Removes frankenphp out of beta by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/882
+* fix: use capture to populate global request with json array by [@krowinski](https://github.com/krowinski) in https://github.com/laravel/octane/pull/883
 
 ## [v2.3.9](https://github.com/laravel/octane/compare/v2.3.8...v2.3.9) - 2024-04-29
 
