@@ -19,7 +19,7 @@ class FrankenPhpClient implements Client
     public function marshalRequest(RequestContext $context): array
     {
         return [
-            Request::createFromGlobals(),
+            Request::capture(),
             $context,
         ];
     }
